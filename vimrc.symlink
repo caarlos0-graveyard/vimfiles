@@ -16,7 +16,7 @@ filetype plugin indent on
 " my custom settings
 "
 "
-" highlight 80c 
+" highlight 80c
 set colorcolumn=80
 
 " lead with ,
