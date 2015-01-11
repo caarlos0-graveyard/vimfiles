@@ -11,3 +11,20 @@ Plugin 'wincent/command-t'
 
 call vundle#end()
 filetype plugin indent on
+
+"
+" my custom settings
+"
+"
+" highlight 80c 
+set colorcolumn=80
+
+" lead with ,
+let mapleader = ","
+
+" ,s will strip whitespaces
+function! StripWhitespace ()
+  exec ':%s/ \+$//gc'
+endfunction
+map ,s :call StripWhitespace ()<CR>
+
