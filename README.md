@@ -1,2 +1,7 @@
 # vimfiles
-~/.vim
+
+My `~/.vim` and `~/.vimrc`.
+
+```sh
+vim +PluginInstall +qall
+```
