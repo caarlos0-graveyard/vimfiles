@@ -2,6 +2,8 @@
 
 My `~/.vim` and `~/.vimrc`.
 
+![screenshot](https://raw.githubusercontent.com/caarlos0/vimfiles/master/screenshot.png)
+
 # Installation
 
 ```sh
