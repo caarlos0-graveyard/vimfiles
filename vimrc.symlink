@@ -8,6 +8,8 @@ call vundle#begin()
 Plugin 'tpope/vim-sensible'
 Plugin 'rstacruz/vim-opinion'
 Plugin 'wincent/command-t'
+Plugin 'vim-scripts/closetag.vim'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
@@ -21,6 +23,9 @@ set colorcolumn=80
 
 " lead with ,
 let mapleader = ","
+
+" toggle nerdtree with ,e
+:nmap ,e :NERDTreeToggle<CR>
 
 " ,s will strip whitespaces
 function! StripWhitespace ()
