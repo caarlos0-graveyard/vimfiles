@@ -13,6 +13,14 @@ ln -s ~/.vimfiles/vimrc.symlink ~/.vimrc
 vim +PluginInstall +qall
 ```
 
+Command-t requires some special treatment:
+
+```sh
+cd ~/.vim/bundle/command-t/ruby/command-t
+ruby extconf.rb
+make
+```
+
 # Used in
 
 - [caarlos0/dotfiles](http://github.com/caarlos0/dotfiles)
