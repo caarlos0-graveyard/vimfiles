@@ -12,6 +12,7 @@ Plugin 'vim-scripts/closetag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Shougo/neocomplcache.vim'
 Plugin 'fatih/vim-go'
+Plugin 'docker/docker', {'rtp': '/contrib/syntax/vim/'}
 
 call vundle#end()
 filetype plugin indent on
