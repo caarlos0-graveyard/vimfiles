@@ -11,6 +11,9 @@ Plugin 'vim-scripts/closetag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 Plugin 'honza/dockerfile.vim'
+Plugin 'junegunn/fzf'
+
+set rtp+=~/.fzf
 
 call vundle#end()
 filetype plugin indent on
@@ -27,6 +30,7 @@ let mapleader = ","
 
 " toggle nerdtree with ,e
 :nmap ,e :NERDTreeToggle<CR>
+:nmap ,t :FZF<CR>
 
 " ,s will strip whitespaces
 function! StripWhitespace ()
