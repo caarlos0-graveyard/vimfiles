@@ -7,7 +7,6 @@ call vundle#begin()
 
 Plugin 'tpope/vim-sensible'
 Plugin 'rstacruz/vim-opinion'
-Plugin 'wincent/command-t'
 Plugin 'vim-scripts/closetag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
@@ -34,4 +33,3 @@ function! StripWhitespace ()
   exec ':%s/ \+$//gc'
 endfunction
 map ,s :call StripWhitespace ()<CR>
-
