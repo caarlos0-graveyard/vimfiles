@@ -10,15 +10,7 @@ My `~/.vim` and `~/.vimrc`.
 git clone --recursive https://github.com/caarlos0/vimfiles.git ~/.vimfiles
 ln -s ~/.vimfiles/vim.symlink ~/.vim
 ln -s ~/.vimfiles/vimrc.symlink ~/.vimrc
-vim +PluginInstall +qall
-```
-
-Command-t requires some special treatment:
-
-```sh
-cd ~/.vim/bundle/command-t/ruby/command-t
-ruby extconf.rb
-make
+vim +PluginInstall! +qall
 ```
 
 # Used in
