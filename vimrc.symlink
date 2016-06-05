@@ -12,6 +12,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 Plugin 'honza/dockerfile.vim'
 Plugin 'junegunn/fzf'
+Plugin 'wakatime/vim-wakatime'
 
 set rtp+=~/.fzf
 
